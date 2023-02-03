@@ -1,0 +1,16 @@
+site_name: My Docs
+site_url: https://example.com/
+nav:
+  - index: index.md
+  - settings: settings.md
+  - DjangoPet: django_pet/models.md
+  - Dev: dev.md
+
+theme: material
+dev_addr: 127.0.0.1:8088
+plugins:
+  - search
+  - awesome-pages
+
+site_author:
+  ManGal
